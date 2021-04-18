@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon --exec babel-node server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,17 @@
   "bugs": {
     "url": "https://github.com/anshul1927/sportscomm/issues"
   },
-  "homepage": "https://github.com/anshul1927/sportscomm#readme"
+  "homepage": "https://github.com/anshul1927/sportscomm#readme",
+  "dependencies": {
+    "apollo-server": "^2.23.0",
+    "graphql": "^15.5.0",
+    "graphql-tools": "^4.0.8"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.15",
+    "nodemon": "^2.0.7"
+  }
 }
